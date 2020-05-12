@@ -9,6 +9,9 @@ require("dotenv").config({
 })
 
 module.exports = {
+  siteMetadata: {
+    title: `Sroop Sunar`
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     {

@@ -1,3 +1,8 @@
 import React from "react"
+import styled from "styled-components"
 
-export default () => <div>Hello world!</div>
+export default () => <Message>Hello world!</Message>
+
+const Message = styled.div`
+  color: red;
+`
